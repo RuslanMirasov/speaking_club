@@ -1,3 +1,3 @@
-# English Lessons
+# SPEAKING CLUB
 
-https://ruslanmirasov.github.io/english_lessons/
+https://ruslanmirasov.github.io/speaking_club/
