@@ -1,0 +1,164 @@
+:root {
+  --main-color: #119d44;
+  --text-color: #414141;
+  --title: 'Bebas Neue', cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
+
+.conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+.conteiner.ta--r {
+  justify-content: flex-end;
+}
+
+section {
+  padding: 30px 0px;
+}
+section:nth-child(2n + 1) {
+  background: rgb(243 249 243);
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+  padding-top: 20px;
+}
+ul > li {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 20px;
+  color: #414141;
+  margin-top: 4px;
+  font-family: var(--title);
+}
+ul > li span {
+  display: block;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(145, 145, 145);
+  max-width: 400px;
+  padding-bottom: 10px;
+}
+ul > li:first-child {
+  margin-top: 0px;
+}
+ul > li:before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  left: 0px;
+  top: 8px;
+  background: var(--main-color);
+}
+p {
+  padding-top: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  width: 100%;
+}
+h2 {
+  font-family: var(--title);
+  font-size: 44px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+}
+h3 {
+  font-family: var(--title);
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  padding-top: 30px;
+}
+
+.subtitle {
+  font-family: var(--title);
+  color: var(--main-color);
+  font-size: 30px;
+  line-height: 36px;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+table {
+  border: 1px solid #414141;
+  width: 100%;
+  margin-bottom: 50px;
+}
+table tr {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table td {
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 0;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+.table_title {
+  width: 100%;
+}
+
+.table_title td {
+  background: #414141;
+  border: 1px solid #414141;
+  color: #fff;
+  width: 100%;
+  font-family: var(--title);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+  float: right;
+  color: #fff;
+  background: #119d44;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+a.link {
+  background: none;
+  color: #119d44;
+  padding: 20px 0px 0px 0px;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}
